@@ -7,4 +7,4 @@ Escribir el código necesario para desplegar los siguientes objetos usando Terra
 
 - Una subnet 10.0.1.0/24
 
-- Una instancia t2.micro (AMI a eleccion) 
+- Una instancia t2.micro (AMI a eleccion)
