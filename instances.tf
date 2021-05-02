@@ -5,4 +5,8 @@ resource "aws_instance" "pl-249620-ec2" {
   key_name               = "id_rsa"
   vpc_security_group_ids = [aws_security_group.pl-249620-ssh-sg.id]
   subnet_id              = aws_subnet.pl-249620-sn.id
+  tags = {
+    Name      = "pl-249620-ec2"
+    terraform = "True"
+  }
 }
